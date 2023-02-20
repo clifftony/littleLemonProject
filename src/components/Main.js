@@ -5,8 +5,10 @@ import Reservation from "./pages/BookingPage";
 import Order from "./pages/Order";
 import Login from "./pages/Login";
 import Confirmation from "./pages/Confirmation";
+import React from  'react';
+import ReactDom from 'react-dom'
 
-export default function Routing() {
+export default function Main() {
   return (
     <Routes>
       <Route path="/" element={<Homepage />} />
